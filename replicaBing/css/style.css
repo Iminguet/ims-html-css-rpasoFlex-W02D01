@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mainContainer {
+  background: url(../assets/pexels-piccinng-3075993.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.mainContainer .headerContainer {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mainContainer .headerContainer .header {
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mainContainer .headerContainer .header .logoYNavegacion {
+  margin-left: 4em;
+  height: calc(10vh - 5%);
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mainContainer .headerContainer .header .logoYNavegacion img {
+  height: calc(10vh - 5% - 50%);
+}
+.mainContainer .headerContainer .header .logoYNavegacion img,
+.mainContainer .headerContainer .header .logoYNavegacion a {
+  margin-right: 2.5em;
+  color: white;
+}
+.mainContainer .headerContainer .header .sesionYOpciones {
+  margin-right: 4em;
+  height: calc(10vh - 5%);
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mainContainer .headerContainer .header .sesionYOpciones .textoLogo {
+  height: calc(10vh - 5%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mainContainer .headerContainer .header .sesionYOpciones .textoLogo img {
+  height: calc(10vh - 5% - 50%);
+}
+.mainContainer .headerContainer .header .sesionYOpciones img {
+  height: calc(10vh - 5% - 50% - 20%);
+}
+.mainContainer .headerContainer .header .sesionYOpciones .textoLogo,
+.mainContainer .headerContainer .header .sesionYOpciones a,
+.mainContainer .headerContainer .header .sesionYOpciones img {
+  margin-left: 1em;
+  color: white;
+}
+.mainContainer .containerBusqueda {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mainContainer .containerBusqueda .barraBusqueda {
+  margin-top: 10em;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 5em;
+  height: 3.5em;
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mainContainer .containerBusqueda .barraBusqueda input {
+  height: 100%;
+  border-radius: 5em;
+  border: none;
+  width: 75%;
+}
+.mainContainer .containerBusqueda .barraBusqueda .imagenesBusqueda {
+  width: 24%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+}
+.mainContainer .containerBusqueda .barraBusqueda .imagenesBusqueda img {
+  width: 20%;
+}
