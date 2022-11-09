@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 $height: 10vh;
@@ -81,7 +84,13 @@ $marginsPrimeEl: 4em;
       }
     }
   }
+}
+
+main {
   .containerBusqueda {
+    position: -5rem;
+    position: sticky;
+    top: -1rem;
     width: 100%;
     display: flex;
     justify-content: center;

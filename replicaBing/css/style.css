@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,7 @@
   list-style: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
 .mainContainer {
@@ -103,7 +105,11 @@
   margin-left: 1em;
   color: white;
 }
-.mainContainer .containerBusqueda {
+
+main .containerBusqueda {
+  position: -5rem;
+  position: sticky;
+  top: -1rem;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,7 +121,7 @@
       -ms-flex-align: center;
           align-items: center;
 }
-.mainContainer .containerBusqueda .barraBusqueda {
+main .containerBusqueda .barraBusqueda {
   margin-top: 10em;
   border: 2px solid white;
   background-color: white;
@@ -132,13 +138,13 @@
       -ms-flex-align: center;
           align-items: center;
 }
-.mainContainer .containerBusqueda .barraBusqueda input {
+main .containerBusqueda .barraBusqueda input {
   height: 100%;
   border-radius: 5em;
   border: none;
   width: 75%;
 }
-.mainContainer .containerBusqueda .barraBusqueda .imagenesBusqueda {
+main .containerBusqueda .barraBusqueda .imagenesBusqueda {
   width: 24%;
   height: 100%;
   display: -webkit-box;
@@ -152,6 +158,6 @@
           align-items: center;
   padding: 1em;
 }
-.mainContainer .containerBusqueda .barraBusqueda .imagenesBusqueda img {
+main .containerBusqueda .barraBusqueda .imagenesBusqueda img {
   width: 20%;
 }
