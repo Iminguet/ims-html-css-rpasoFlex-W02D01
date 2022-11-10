@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.mainContainer {
+  background: url(../assets/pexels-faik-akmd-1025469.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mainContainer .headerContainer {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mainContainer .headerContainer .header {
+  height: 10vh;
+  position: fixed;
+  margin-top: 1em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mainContainer .headerContainer .header .cabeceraInfo {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.mainContainer .headerContainer .header .cabeceraInfo .logoYNavegacion {
+  margin-left: 4em;
+  height: calc(10vh - 5%);
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mainContainer .headerContainer .header .cabeceraInfo .logoYNavegacion img {
+  height: calc(10vh - 5% - 50%);
+}
+.mainContainer .headerContainer .header .cabeceraInfo .logoYNavegacion img,
+.mainContainer .headerContainer .header .cabeceraInfo .logoYNavegacion a {
+  margin-right: 2.5em;
+  color: white;
+}
+.mainContainer .headerContainer .header .cabeceraInfo .sesionYOpciones {
+  margin-right: 4em;
+  height: calc(10vh - 5%);
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mainContainer .headerContainer .header .cabeceraInfo .sesionYOpciones .textoLogo {
+  height: calc(10vh - 5%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mainContainer .headerContainer .header .cabeceraInfo .sesionYOpciones .textoLogo img {
+  height: calc(10vh - 5% - 50%);
+}
+.mainContainer .headerContainer .header .cabeceraInfo .sesionYOpciones img {
+  height: calc(10vh - 5% - 50% - 20%);
+}
+.mainContainer .headerContainer .header .cabeceraInfo .sesionYOpciones .textoLogo,
+.mainContainer .headerContainer .header .cabeceraInfo .sesionYOpciones a,
+.mainContainer .headerContainer .header .cabeceraInfo .sesionYOpciones img {
+  margin-left: 1em;
+  color: white;
+}
+.mainContainer .headerContainer .header .containerBusqueda {
+  margin-top: 3em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.mainContainer .headerContainer .header .containerBusqueda .barraBusqueda {
+  position: fixed;
+  top: 8em;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 5em;
+  height: 3.5em;
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mainContainer .headerContainer .header .containerBusqueda .barraBusqueda input {
+  height: 100%;
+  border-radius: 5em;
+  border: none;
+  width: 75%;
+}
+.mainContainer .headerContainer .header .containerBusqueda .barraBusqueda .imagenesBusqueda {
+  width: 24%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+}
+.mainContainer .headerContainer .header .containerBusqueda .barraBusqueda .imagenesBusqueda img {
+  width: 20%;
+}
+.mainContainer .mainElements {
+  height: 50vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mainContainer .mainElements .detallesTarjetas {
+  height: 5vh;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mainContainer .mainElements .detallesTarjetas .flechaAbajo {
+  width: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #242529;
+  border-radius: 0.2em;
+  height: 100%;
+  padding: 0.3em;
+  padding: 0.5em;
+}
+.mainContainer .mainElements .detallesTarjetas .flechaAbajo img {
+  height: 100%;
+}
+.mainContainer .mainElements .detallesTarjetas .localizacionNext {
+  height: 100%;
+  width: 20vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mainContainer .mainElements .detallesTarjetas .localizacionNext .localizacion {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #242529;
+  border-radius: 0.2em;
+  height: 100%;
+  padding: 0.3em;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: white;
+}
+.mainContainer .mainElements .detallesTarjetas .localizacionNext .localizacion img {
+  height: 100%;
+}
+.mainContainer .mainElements .detallesTarjetas .localizacionNext .next {
+  width: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #242529;
+  border-radius: 0.2em;
+  height: 100%;
+  padding: 0.3em;
+}
+.mainContainer .mainElements .detallesTarjetas .localizacionNext .next img {
+  height: 100%;
+}
+.mainContainer .mainElements .carrusel {
+  width: 80%;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.mainContainer .mainElements .carrusel .tarjeta {
+  height: 100%;
+  width: 19.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mainContainer .mainElements .carrusel .tarjeta p {
+  padding: 0.3em;
+  border-radius: 0.7em 0.7em 0% 0%;
+  text-align: center;
+  width: 100%;
+  height: 5vh;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #242529;
+  color: white;
+}
+.mainContainer .mainElements .carrusel .tarjeta img {
+  width: 100%;
+  height: 15vh;
+  border-radius: 0% 0% 0.7em 0.7em;
+}
