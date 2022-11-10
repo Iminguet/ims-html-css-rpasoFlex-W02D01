@@ -10,9 +10,8 @@
 }
 
 .mainContainer {
-  background: url(../assets/pexels-piccinng-3075993.jpg);
+  background: url(../assets/pexels-faik-akmd-1025469.jpg);
   background-size: cover;
-  position: static;
   height: 100vh;
   width: 100%;
   display: -webkit-box;
@@ -182,46 +181,146 @@
   width: 20%;
 }
 .mainContainer .mainElements {
-  height: 30vh;
+  height: 50vh;
   width: 100%;
-  background: transparent;
-  position: relative;
-  width: 100%;
-}
-.mainContainer .mainElements .carrusel {
-  -webkit-animation: scroll 50s linear infinite;
-          animation: scroll 50s linear infinite;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mainContainer .mainElements .detallesTarjetas {
+  height: 5vh;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mainContainer .mainElements .detallesTarjetas .flechaAbajo {
+  width: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #242529;
+  border-radius: 0.2em;
+  height: 100%;
+  padding: 0.3em;
+  padding: 0.5em;
+}
+.mainContainer .mainElements .detallesTarjetas .flechaAbajo img {
   height: 100%;
 }
-.mainContainer .mainElements .tarjeta {
+.mainContainer .mainElements .detallesTarjetas .localizacionNext {
   height: 100%;
-  width: 50%;
-  border: 2px solid white;
+  width: 20vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.mainContainer .mainElements .tarjeta img {
+.mainContainer .mainElements .detallesTarjetas .localizacionNext .localizacion {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #242529;
+  border-radius: 0.2em;
+  height: 100%;
+  padding: 0.3em;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: white;
+}
+.mainContainer .mainElements .detallesTarjetas .localizacionNext .localizacion img {
+  height: 100%;
+}
+.mainContainer .mainElements .detallesTarjetas .localizacionNext .next {
+  width: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #242529;
+  border-radius: 0.2em;
+  height: 100%;
+  padding: 0.3em;
+}
+.mainContainer .mainElements .detallesTarjetas .localizacionNext .next img {
+  height: 100%;
+}
+.mainContainer .mainElements .carrusel {
+  width: 80%;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.mainContainer .mainElements .carrusel .tarjeta {
+  height: 100%;
+  width: 19.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mainContainer .mainElements .carrusel .tarjeta p {
+  padding: 0.3em;
+  border-radius: 0.7em 0.7em 0% 0%;
+  text-align: center;
   width: 100%;
-  height: 5em;
+  height: 5vh;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #242529;
+  color: white;
 }
-@-webkit-keyframes scroll {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-1750px);
-            transform: translateX(-1750px);
-  }
-}
-@keyframes scroll {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-1750px);
-            transform: translateX(-1750px);
-  }
+.mainContainer .mainElements .carrusel .tarjeta img {
+  width: 100%;
+  height: 15vh;
+  border-radius: 0% 0% 0.7em 0.7em;
 }
